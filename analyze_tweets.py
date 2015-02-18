@@ -1,3 +1,9 @@
+'''
+Author: Adil Moujahid
+Description: Script for analyzing tweets to compare the popularity of 3 programming languages: Python, Javascript and ruby
+Reference: http://adilmoujahid.com/posts/2014/07/twitter-analytics/
+'''
+
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -23,7 +29,7 @@ def extract_link(text):
 
 def main():
 
-	
+
 	#Reading Tweets
 	print 'Reading Tweets\n'
 	tweets_data_path = '../data/twitter_data.txt'
